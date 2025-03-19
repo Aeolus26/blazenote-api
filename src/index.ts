@@ -12,7 +12,7 @@ const app = new Hono();
 // Define allowed origins
 const allowedOrigins = new Set([
   "http://localhost:5173",
-  "https://<your-domain>.<tld>",
+  "https://note.glowing-encryptor.sxplab.com",
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
